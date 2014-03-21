@@ -1,0 +1,310 @@
+@import "settings";
+@import "foundation";
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switch",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+.hero{
+    background: url('../imgs/tokyo.jpg');
+    background-size: cover;
+
+    h1{color:#fff;}
+    img{
+        padding-top:5em;
+    }
+
+}
+header {
+    padding-top: 40px;
+    min-height: 500px;
+    small {
+        color:#AFD0D8;
+    }
+
+#callact{
+    padding:10em 2em 1em 1em;
+}
+
+
+}
+#quote{
+    padding: 6.5em 2em 2em 2em;
+
+}
+.full{
+    padding: 5em;
+    background-color:#C2002F;
+    color:#fff;
+    font-weight:200;
+    margin: 3em 0;
+    h4, h6{color:#eee;
+        }
+
+}
+
+body{
+    background: url('../imgs/grid_noise.png');
+    background-repeat: repeat;
+
+
+}
+
+
+
+#coalition_partners {
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+#coalition_partners img {
+	height: auto;
+	width: 100%;
+}
+
+//Sprites
+
+/* Polar Notion: Identity Development and Design */
+/* http://www.polarnotion.com */
+
+/* partners-sprite.svg */
+
+div.partner {
+	display: block;
+	background: url(../imgs/partners-sprite.png) no-repeat 0 0;
+	text-indent: -9999px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+/* A21 */
+div.partner.a21 {
+	background-position: 0px 0px;
+	width: 92px;
+	height: 45px;
+	margin-top: 20px;
+}
+div.partner.a21.dark {
+	background-position: 0px -48px;
+}
+div.partner.a21:hover {
+	background-position: 0px -99px;
+}
+div.partner.a21.red {
+	background-position: 0px -99px;
+	cursor: default;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+/* ECPAT */
+div.partner.ecpat {
+	background-position: -113px 0px;
+	width: 114px;
+	height: 45px;
+	margin-top: 18px;
+}
+div.partner.ecpat.dark {
+	background-position: -113px -48px;
+}
+div.partner.ecpat:hover {
+	background-position: -113px -99px;
+}
+div.partner.ecpat.red {
+	background-position: -113px -99px;
+	cursor: default;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+/* LOVE 146 */
+div.partner.love146 {
+	background-position: -245px 0px;
+	width: 100px;
+	height: 40px;
+	margin-top: 20px;
+}
+div.partner.love146.dark {
+	background-position: -245px -48px;
+}
+div.partner.love146:hover {
+	background-position: -245px -99px;
+}
+div.partner.love146.red {
+	background-position: -245px -99px;
+	cursor: default;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+/* Not For Sale */
+div.partner.nfs {
+	background-position: -792px 0px;
+	width: 148px;
+	height: 40px;
+	margin-top: 15px;
+}
+div.partner.nfs.dark {
+	background-position: -792px -48px;
+}
+div.partner.nfs:hover {
+	background-position: -792px -99px;
+}
+div.partner.nfs.red {
+	background-position: -792px -99px;
+	cursor: default;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+/* Polaris Project */
+div.partner.polaris {
+	background-position: -463px 0px;
+	width: 155px;
+	height: 45px;
+	margin-top: 15px;
+}
+div.partner.polaris.dark {
+	background-position: -463px -48px;
+}
+div.partner.polaris:hover {
+	background-position: -463px -99px;
+}
+div.partner.polaris.red {
+	background-position: -463px -99px;
+	cursor: default;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+/* World Relief */
+div.partner.wr {
+	background-position: -635px 0px;
+	width: 150px;
+	height: 40px;
+	margin-top: 15px;
+}
+div.partner.wr.dark {
+	background-position: -635px -48px;
+}
+div.partner.wr:hover {
+	background-position: -635px -99px;
+}
+div.partner.wr.red {
+	background-position: -635px -99px;
+	cursor: default;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+/* Free the Slaves */
+div.partner.fts {
+	background-position: -5px -149px;
+	width: 40px;
+	height: 80px;
+}
+div.partner.fts.dark {
+	background-position: -47px -149px;
+}
+div.partner.fts:hover {
+	background-position: -89px -149px;
+}
+div.partner.fts.red {
+	background-position: -89px -149px;
+	cursor: default;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+/* Made in a Free World */
+div.partner.mifw {
+	background-position: -136px -149px;
+	width: 55px;
+	height: 65px;
+}
+div.partner.mifw.dark {
+	background-position: -196px -149px;
+}
+div.partner.mifw:hover {
+	background-position: -256px -149px;
+}
+div.partner.mifw.red {
+	background-position: -256px -149px;
+	cursor: default;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+/* IJM */
+div.partner.ijm {
+	background-position: -322px -149px;
+	width: 46px;
+	height: 73px;
+}
+div.partner.ijm.dark {
+	background-position: -374px -149px;
+}
+div.partner.ijm:hover {
+	background-position: -428px -149px;
+}
+div.partner.ijm.red {
+	background-position: -427px -149px;
+	cursor: default;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+/* World Vision */
+div.partner.wv {
+	background-position: -484px -149px;
+	width: 94px;
+	height: 58px;
+}
+div.partner.wv.dark {
+	background-position: -588px -149px;
+}
+div.partner.wv:hover {
+	background-position: -686px -149px;
+}
+div.partner.wv.red {
+	background-position: -686px -149px;
+	cursor: default;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
