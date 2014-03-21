@@ -68,11 +68,14 @@ header {
 }
 .full{
     padding: 5em;
-    background-color:#C2002F;
+    background-color:#be0f34;
     color:#fff;
     font-weight:200;
     margin: 3em 0;
-    h4, h6{color:#eee;
+    li {
+        font-size: 80%;
+    }
+    h4, h6{color:#A6C8E3;
         }
 
 }
