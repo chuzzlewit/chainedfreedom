@@ -38,7 +38,12 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+body{
+    background: url('../imgs/grid_noise.png');
+    background-repeat: repeat;
 
+
+}
 .hero{
     background: url('../imgs/tokyo2.jpg');
     background-size: cover;
@@ -53,7 +58,7 @@ header {
     padding-top: 40px;
     min-height: 500px;
     small {
-        color:#AFD0D8;
+        color:#eee;
     }
 
 #callact{
@@ -71,34 +76,56 @@ header {
     background-color:#be0f34;
     color:#eee;
     font-weight:200;
-    margin: 3em 0;
+    margin: 4em 0;
     li {
         font-size: 85%;
         list-style:square;
     }
-    h3{font-family:"Trebuchet MS";color:#eee;}
+    h3{font-family: "lucida sans unicode","lucida grande",sans-serif;
+        font-size: 20px;
+        font-weight: bold;color:#eee;}
     h6{color:#7c051e;}
 
 }
-
-body{
-    background: url('../imgs/grid_noise.png');
-    background-repeat: repeat;
-
+.mainline{
+    blockquote p{color:#222;font-family: "palatino linotype",palatino,serif;
+font-size: 30px;
+font-style: italic;}
+    padding: 5em 0;h3{font-family: "lucida sans unicode","lucida grande",sans-serif;
+font-size: 20px;
+font-weight: bold;}
+}
+.citing > cite{color:#666;font-size:75%; float: right; padding:4em 15em;
 
 }
 
-
-
-#coalition_partners {
-	margin-top: 70px;
-	margin-bottom: 30px;
+.trigun{
+    h4,h5,h6 {font-family: "lucida sans unicode","lucida grande",sans-serif;
+        font-weight:bold;
+    }
 }
+
+#ghead{
+    position: relative; top: -200px; right:-250px;
+    margin-bottom:-100px;
+    max-width:30%;
+}
+.panel{
+    font-family: "palatino linotype",palatino,serif;
+    font-style:italic;
+    p {line-height:1.5;}
+}
+.panel h6{
+    font-family: "lucida sans unicode","lucida grande",sans-serif;
+        font-weight:bold;
+    line-height:1.3;
+}
+
+#coalition_partners {margin-top: 70px;margin-bottom: 30px;}
 
 #coalition_partners img {
 	height: auto;
-	width: 100%;
-}
+	width: 100%;}
 
 //Sprites
 
@@ -320,7 +347,3 @@ footer.cf-footer{
     li{
     font-size: 80%;
     list-style: none;}}
-
-.panel.callout {background-color:#e0d6c8;
-    border-color:#d2ba9f;
-}
