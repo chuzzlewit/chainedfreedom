@@ -40,7 +40,7 @@
 //   "foundation/components/visibility";
 
 .hero{
-    background: url('../imgs/tokyo.jpg');
+    background: url('../imgs/tokyo2.jpg');
     background-size: cover;
 
     h1{color:#fff;}
@@ -69,14 +69,15 @@ header {
 .full{
     padding: 5em;
     background-color:#be0f34;
-    color:#fff;
+    color:#eee;
     font-weight:200;
     margin: 3em 0;
     li {
-        font-size: 80%;
+        font-size: 85%;
+        list-style:square;
     }
-    h4, h6{color:#A6C8E3;
-        }
+    h3{font-family:"Trebuchet MS";color:#eee;}
+    h6{color:#7c051e;}
 
 }
 
@@ -310,4 +311,16 @@ div.partner.wv.red {
 	cursor: default;
 	margin-bottom: 0px;
 	margin-top: 0px;
+}
+
+footer.cf-footer{
+    padding: 2em 0;
+    background-color:#111;
+    color: #ddd;
+    li{
+    font-size: 80%;
+    list-style: none;}}
+
+.panel.callout {background-color:#e0d6c8;
+    border-color:#d2ba9f;
 }
