@@ -74,14 +74,12 @@ header {
 
 
 // #C12033 default red
-.full{
+#trafficlist{
     background-color:#111;
     color:#eee;
     font-weight:200;
-    li {
-        font-size: 85%;
-        list-style:square;
-    }
+    li {font-size: 85%;
+        list-style:square;}
     h3{font-family: "lucida sans unicode","lucida grande",sans-serif;
         font-size: 20px;
         font-weight: bold;color:#eee;}
