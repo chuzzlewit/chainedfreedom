@@ -71,14 +71,10 @@ header {
 
 
 }
-#quote{
-    padding: 6.5em 2em 2em 2em;
 
-}
 
 // #C12033 default red
 .full{
-    padding: 5em;
     background-color:#111;
     color:#eee;
     font-weight:200;
@@ -92,14 +88,15 @@ header {
     h6{color:#961223;}
 
 }
-.mainline{
+#whatis {
     blockquote p{color:#222;font-family: "palatino linotype",palatino,serif;
-font-size: 20px;
-font-style: italic;}
-    padding: 5em 0;h3{font-family: "lucida sans unicode","lucida grande",sans-serif;
-font-size: 20px;
-font-weight: bold;}
-}
+        font-size: 20px;font-style: italic;}
+        h3{
+            font-family: "lucida sans unicode","lucida grande",sans-serif;
+            font-size: 20px;
+            font-weight: bold;}
+        }
+
 .citing > cite{color:#666;font-size:75%; float: right; padding:4em 15em;
 
 }
