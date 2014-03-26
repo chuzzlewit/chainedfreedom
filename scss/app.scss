@@ -38,15 +38,18 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+html {overflow-x: hidden;
+}
+
 body{
         background: url('../imgs/bg-lighter2.jpg') repeat fixed 0% 0% transparent;
         background-color: transparent;
         background-repeat: repeat;
         background-attachment: fixed;
         background-size: auto auto;
+        overflow-x: hidden;
 
 }
-.inner-wrap {max-width:100%;}
 
 .hero{
     //background: url('../imgs/tokyo2.png ');
@@ -58,6 +61,14 @@ body{
     }
 
 }
+
+@media only screen and (max-width: 40em) {
+    .hero{
+        background:no-repeat center;
+        background-size: cover;
+    }
+}
+
 header {
     padding-top: 40px;
     min-height: 500px;
@@ -79,13 +90,16 @@ header {
     margin:0;
     color:#eee;
     font-weight:200;
+//    padding:2em;
     li {font-size: 85%;
         list-style:square;}
     h4{font-family: "lucida sans unicode","lucida grande",sans-serif;
-        font-weight: bold;color:#eee;}
+        font-weight: bold;color:#eee; padding-top:3.5em;}
     h6{color:#961223;}
-
-
+}
+#ghead{
+    position: relative; top:-35px;
+    max-width:55%;
 }
 #whatis {
     blockquote p{color:#222;font-family: "palatino linotype",palatino,serif;font-style: italic;}
@@ -111,11 +125,7 @@ header {
     margin-bottom: 4em;
 }
 
-//#ghead{
-//    position: relative; top: -205px; right:-250px;
-//    margin-bottom:-100px;
-//    max-width:35%;
-//}
+
 .panel{
     font-family: "palatino linotype",palatino,serif;
     font-style:italic;
